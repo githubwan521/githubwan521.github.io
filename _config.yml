@@ -1,0 +1,80 @@
+# Basic
+title: 无罪之人方可安睡
+subtitle: 个人站
+description: 永远年轻 永远热爱 永远热泪盈眶~
+# 头像里面的标题
+avatarTitle: sleep-is-for-the-guiltless
+# 头像里面的描述
+avatarDesc: go / Java
+url: "http://nobb.cn"
+
+# 博客是否自动生成目录，false为不生成
+enableToc: true
+
+# Comment
+comment:
+    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+    disqus: sleepisfortheguiltless
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    weibo: 注孤生的围博
+    github: githubwan521
+    zhihu: 耿耿于怀
+    # juejin: xxx
+    jianshu: 这个人很爱你
+    # twitter: 
+    mail: 645078439@qq.com
+
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 1e20550e5cf108949ebf26c2bf1865f9
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+ #   id: UA-84134159-3  
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 技术支持, description: support, url: '/support'}      
+    - {title: 关于我, description: about, url: '/about'}   
+    
+
+# Pagination
+#gems: [jekyll-paginate,jekyll-sitemap]
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+
+
